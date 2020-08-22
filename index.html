@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- THE CONTAINER OF THE PAGE -->
+    <div class="container">
+        <div class="displayPage">
+
+
+            <!-- THE HEADER OF THE PAGE -->
+            <header>
+                <div class="header">
+                    <p>My Available Votes</p>
+                    <h2 id="value" class="count">100</h2>
+                    <progress max="100" value="100" id="strength" class="strength"></progress>
+
+                    <div class="date-time">
+                        <div class="date" id="date"></div>
+
+                        <div class="time" id="time"></div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- THE SECTION OF THE PAGE -->
+            <!-- <div class="displayPage"> -->
+            <div class="section-one">
+                <div class="section-left">
+                    <div class="one-left">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/Ellipse.png" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Dorathy</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" class="input" value="0">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+
+                <div class="section-right">
+                    <div class="one-right">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/Brighto.jpg" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Brighto</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" value="0" class="input">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="section-two">
+                <div class="section-left">
+                    <div class="two-left">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/laycon.jpg" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Laycon</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" class="input" value="0">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="section-right">
+                    <div class="two-right">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/erica.jpg" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Erica</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" class="input" value="0">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="section-three">
+                <div class="section-left">
+                    <div class="three-left">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/Nengi.jpg" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Nengi</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" class="input" value="0">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="section-right">
+                    <div class="three-right">
+                        <div class="left">
+                            <div class="image-div">
+                                <img src="./images/prinebbn.jpg" alt="ellipse">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h3>Prince</h3>
+                            <div class="calculate">
+                                <button id="subtract" class="btn decrease">-</button>
+                                <input type="number" class="input" value="0">
+                                <button id="add" class="btn increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <!-- THE FOOTER OF THE PAGE -->
+            <footer>
+                <center>
+                    <button id="board">View Leaderboard</button>
+                    <p id="error"></p>
+                </center>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="leaderboard.js"></script>
+
+</body>
+
+</html>

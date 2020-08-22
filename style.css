@@ -1,0 +1,6713 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:35%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    /* display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:25px 25px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:150px;
+    border-radius:8px;
+    padding:20px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:40px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:10px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:12px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:12px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:15px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:60%;
+    height:30px;
+    border-radius:10px;
+    margin:5px 12px
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    /* background:red; */
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+    /* background:red; */
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+    /* background:red; */
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:80%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:30px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:12px;
+}
+
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:700px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 25px;
+}
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:25px;
+}
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px;
+}
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:40px;
+    height:40px;
+    float:left;
+}
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:40px;
+    height:40px;
+    float:right;
+    padding:10px;
+    text-align:center;
+}
+.position span{
+    color:#ffffff;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    /* background:blue; */
+    height:110px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:50px 35px 0 30px;
+}
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:175px;
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:35%;
+    text-align:center;
+    padding:12px;
+    color:#ffffff;
+    cursor:pointer;
+}
+
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:320px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:560px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 140px;
+    padding:5px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:10px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:10px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:375px) and (min-width:321px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:10px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:10px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:425px) and (min-width:376px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:480px) and (min-width:426px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:530px) and (min-width:481px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:585px) and (min-width:531px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:635px) and (min-width:586px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:690px) and (min-width:636px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:85%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:740px) and (min-width:691px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:77%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:768px) and (min-width:741px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:823px) and (min-width:769px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:85%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:1024px) and (min-width:769px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
+
+
+
+
+/* ==================================== */
+/* -------------------------------------- */
+@media screen and (max-width:1240px) and (min-width:1025px){
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background:url('./images/dev.png');
+}
+
+
+/* ===================================== */
+/* THE SECTION OF THE CONTAINER */
+.container{
+    background: #ffffff;
+    width:100%;
+    height:630px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+/*     display:none; */
+}
+
+
+/* ====================================== */
+/* THE SECTION OF THE HEADER */
+header{
+    width: 100%;
+    height: 200px;
+    padding:15px;
+}
+
+/* ======================================= */
+/* THE SECTION OF THE DIV HEADER */
+.header{
+    background:#232B3D;
+    width:100%;
+    height:130px;
+    border-radius:8px;
+    padding:10px;
+}
+
+.header p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: semi-bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 30px 5px 30px;
+}
+
+.header h2{
+    font-family:Roboto;
+    color:#FFFFFF;
+    font-size:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+progress {
+    -webkit-appearance: none;
+    width:100%;
+    margin-top:10px;
+    border-radius:8px;
+}
+  
+::-webkit-progress-bar {
+    background: #3B4558;
+    border-radius:18px;
+    height:7px;  
+}
+
+::-webkit-progress-value{
+    background:#F7B354;
+    border-radius:8px;
+}
+
+.date{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:left
+}
+
+.time{
+    color:#ffffff;
+    font-family:Roboto;
+    font-size:11px;
+    float:right
+}
+
+  /* ========================================== */
+  /* THE SECTION OF THE PAGE */
+.section-one{
+      height:110px;
+      width:100%;
+}
+
+/*  */
+.section-left{
+    width:50%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+}
+
+.section-right{
+    width:50%;
+    float:left;
+    height:100px;
+}
+/*  */
+
+/* ------------------------------------------- */
+.one-left{
+/*     background: #FFFFFF; */
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.left{
+    width:30%;
+    float:left;
+    height:90px
+}
+
+.image-div{
+    background:orange;
+    height:50px;
+    width:50px;
+    border-radius:150px;
+    margin:auto;
+    margin-top:1px;
+    border:1px solid red;
+    margin-left:10px;
+}
+.image-div img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.right{
+    width:70%;
+    float:left;
+    height:90px
+}
+
+.right h3{
+    color: #000000;
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:15px;
+    padding:12px;
+    margin-left:15px;
+}
+
+.right .calculate{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:100%;
+    height:30px;
+    border-radius:10px;
+    margin:10px -10px;
+}
+
+
+.right #subtract{
+    width:15%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.right input{
+    width:58%;
+    padding:5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color:#000000;
+    outline:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.right input::-webkit-input-placeholder{
+    color:red;
+    text-align:right;
+}
+
+.right input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.right #add{
+    width:15%;
+    background:transparent;
+    outline:none;
+    color:#000000;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:4px;
+}
+
+
+/* ------------------------------------------ */
+.one-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+  /* ----------------------------- */
+.section-two{
+    height:110px;
+    width:100%;
+}
+
+.two-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.two-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+
+/* ------------------------------- */
+.section-three{
+    height:110px;
+    width:100%;
+}
+
+.three-left{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.three-right{
+    background: #FFFFFF;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    height:90px;
+    width:90%;
+    border-radius:7px;
+    margin:auto;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+/* ========================================= */
+/* THE SECTION OF THE FOOTER */
+footer{
+    height:175px;
+    width:100%;
+    padding:20px 30px 20px 30px;
+}
+
+footer button{
+    background:#1E2A5A;
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    color:#FFFFFF;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-family: Roboto;
+    cursor:pointer;
+}
+
+footer p{
+    color:#EE1A30;
+    margin-top:10px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size:10px;
+}
+
+
+
+/* ========================================= */
+/* THE SECTION OF THE LEADERBOARD */
+.leaderboard{
+    background: #ffffff;
+    width:35%;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:10px;
+    display:none;
+}
+
+/* ----------------------------------- */
+.board-one{
+    height:90px;
+    width:100%;
+}
+.board-one h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    color:#000000;
+}
+
+
+/* -------------------------- */
+.board-two{
+    height:110px;
+    width:100%;
+}
+
+.board-left{
+
+    width:50%;
+    float:left;
+    height:110px;
+    padding: 15px;
+}
+
+.board-right{
+
+    width:50%;
+    height:110px;
+    float:right;
+    border-left:1px solid white;
+    padding:15px;
+}
+
+.box{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 7px;
+    width:100%;
+    height:60px;
+    padding:10px 5px;
+}
+
+.box p{
+    float:left;
+    padding:10px 5px 5px 5px;
+    color:#000000;
+    font-family:Roboto;
+    font-weight:bold;
+    font-size:10px;
+}
+
+.image{
+    background:red;
+    border-radius:150px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:150px;
+}
+
+.position{
+    background:#1E2A5A;
+    border-radius:150px;
+    width:30px;
+    height:30px;
+    float:right;
+    padding:5px;
+    text-align:center;
+    margin-top:3px;
+}
+
+.position span{
+    color:#ffffff;
+    font-size:10px;
+}
+
+/* ----------------------------- */
+.board-three{
+    /* background:red; */
+    height:110px;
+    width:100%;
+}
+
+
+.board-four{
+    height:50px;
+    width:100%;
+}
+
+#evicted{
+    height:100px;
+    width:100%;
+    padding:10px 35px 0 30px;
+}
+
+#evicted p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #18BBB6;
+}
+
+.board-five{
+
+    height:105px;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+.board-five button{
+    background: #1E2A5A;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+    width:40%;
+    text-align:center;
+    padding:10px;
+    color:#ffffff;
+    cursor:pointer;
+}
+}
